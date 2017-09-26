@@ -1,18 +1,18 @@
 ## 别样面试小测试
 
 
-你需要用到的API：
+- 你需要用到的API：
 
-    `文章消息API：https://baleen-dev.bybieyang.com/feeds/comments?f=10&t=20`
+    文章消息API：https://baleen-dev.bybieyang.com/feeds/comments?f=10&t=20
 
-    `晒单消息API：https://5thave-dev.bybieyang.com/api/v1/product-comment/feeds/comments?f=0&t=10`
+    晒单消息API：https://5thave-dev.bybieyang.com/api/v1/product-comment/feeds/comments?f=0&t=10
 
-参数含义：
+- 参数含义：
     `f: 从第f条开始`
     `t: 取到第t条`
     比如f=10&t=20表示取第10~20条消息；
 
-Request Header:
+- Request Header:
 ``` 
   {
     "X-Session-Key" = "b85612b3-de4e-49ec-9238-ca8c0d3d6aab",
@@ -21,7 +21,7 @@ Request Header:
 ```
 
 
-API 说明：
+- API 说明：
 
 ** 注意 “replies”代表回复白色部分的内容，灰色部分的内容是最外层的(content)部分 **
 
@@ -82,8 +82,8 @@ API 说明：
 
     5. 上面的两个Tab“评论、客服”可做可不做，随意；
     
-    
-    
+    6. 请不要直接在此直接提交代码；
+    
     
     
     
